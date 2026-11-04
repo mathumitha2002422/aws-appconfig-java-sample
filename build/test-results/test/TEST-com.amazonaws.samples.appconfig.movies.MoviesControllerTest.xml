@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.amazonaws.samples.appconfig.movies.MoviesControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-04T22:06:56" hostname="Admins-MacBook-Air.local" time="0.354">
+<testsuite name="com.amazonaws.samples.appconfig.movies.MoviesControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-04T22:23:19" hostname="Admins-MacBook-Air.local" time="0.391">
   <properties/>
-  <testcase name="testMovieWithFeatureEnabled()" classname="com.amazonaws.samples.appconfig.movies.MoviesControllerTest" time="0.354"/>
+  <testcase name="testMovieWithFeatureEnabled()" classname="com.amazonaws.samples.appconfig.movies.MoviesControllerTest" time="0.391"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
