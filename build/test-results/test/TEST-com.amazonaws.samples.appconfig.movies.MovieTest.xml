@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amazonaws.samples.appconfig.movies.MovieTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-04T22:06:56" hostname="Admins-MacBook-Air.local" time="0.036">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.amazonaws.samples.appconfig.movies.MovieTest" time="0.036"/>
+  <system-out><![CDATA[03:36:54.722 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.amazonaws.samples.appconfig.movies.MovieTest]: MovieTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+03:36:54.831 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.amazonaws.samples.appconfig.movies.MoviesApplication for test class com.amazonaws.samples.appconfig.movies.MovieTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.2.12)
+
+2026-11-05T03:36:55.314+05:30  WARN 86374 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/devuser/.gradle/caches/modules-2/files-2.1/org.json/json/20250107/a1b5f0b5a1ce018b93a691c57ffc7d141b3a10f1/json-20250107.jar!/org/json/JSONObject.class
+	jar:file:/Users/devuser/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-11-05T03:36:55.353+05:30  INFO 86374 --- [    Test worker] c.a.samples.appconfig.movies.MovieTest   : Starting MovieTest using Java 21.0.13.0.3 with PID 86374 (started by devuser in /Users/devuser/Documents/DARTS/AWS_Transform/aws-appconfig-java-sample)
+2026-11-05T03:36:55.359+05:30  INFO 86374 --- [    Test worker] c.a.samples.appconfig.movies.MovieTest   : No active profile set, falling back to 1 default profile: "default"
+2026-11-05T03:36:56.619+05:30  INFO 86374 --- [    Test worker] c.a.samples.appconfig.movies.MovieTest   : Started MovieTest in 1.554 seconds (process running for 4.45)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
